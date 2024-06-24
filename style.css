@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding: 50px 0px 20px;
+}
+
+li::marker{
+    color: aqua;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+ul li{
+    padding: 5px 0px;
+}
+
+#project{
+    color: rgb(10, 200, 247);
+}
+
+div{
+    display: flex;
+}
